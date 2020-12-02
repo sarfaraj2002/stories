@@ -21,6 +21,12 @@
 	left:0;
 	background-color:violet;
 }
+#batches
+{
+    color:white;
+	position:absolute;
+}
+
 
 #site-title {
 	font-size: 2em;

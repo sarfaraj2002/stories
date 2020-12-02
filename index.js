@@ -31,7 +31,9 @@ function blinkme()
 {
     blink('#me')
 }
+
 window.setInterval(blinkme,500);
+
 //blink every 500 milisecond
 
 
