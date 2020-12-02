@@ -38,30 +38,15 @@
 #article01
 {
     display:block;
-    border:5px solid black;
-    width:80%;
-    height:380px;
-    margin-top:0px;
-    margin-left:10%;
     background-color:grey;
-
+    margin:10%;
+    border:2px solid black;
 }
-
-#article02
+.sarfaraj
 {
-    background-color:grey;
-    display:block;
-    border:5px solid black;
-    width:80%;
-    height:150px;
-    margin-top:50px;
-    margin-left:10%;
-    position:relative;
-}
-#button02
-{
-    position:absolute;
-    margin:40px;
-
-    text-align:center;
+    color:rgb(255,255,255);
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration:underline;
+    text-decoration-color:violet;
+    text-align:right;
 }

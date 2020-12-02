@@ -37,16 +37,16 @@ window.setInterval(blinkme,500);
 //blink every 500 milisecond
 
 
-function door(){
-    document.getElementById('myImage').src='page2/door3.jpg';
-    blink('#openbutton');
-    blink('#closebutton');
-    blink('#Article1');
+function door(door,openbutton,closebutton,article){
+    document.getElementById(door).src='page2/door3.jpg';
+    blink(openbutton);
+    blink(closebutton);
+    blink(article);
 }
-function closedoor()
+function closedoor(door,openbutton,closebutton,article)
 {
-    document.getElementById('myImage').src='page2/door1.jpg';
-    blink('#openbutton');
-    blink('#closebutton');
-    blink('#Article1');
+    document.getElementById(door).src='page2/door1.jpg';
+    blink(openbutton);
+    blink(closebutton);
+    blink(article);
 }

@@ -22,7 +22,7 @@
            </h1>
         </section>
 
-        <text onclick="document.querySelector('#sarfaraj').style='background-color:turquoise';"  class="text" id="sarfaraj">
+        <text style="color:blue;"  class="text sarfaraj" id="sarfaraj">
             <br><br>
             I have been thinking about the differennt<br>
             perspectives of the amazing human on this Earth.<br>
@@ -43,17 +43,21 @@
 <br><br><br>
 
 
-        <div id="article02">
-            <button  id="button02" class="button"><a class="title" href="page2/index.html">View our latest Article</a ></button>
-        </div>
-
 
         <div id="article01" >
+            <nav>
+               <h2 class="text sarfaraj" style="text-align:center;"> Open the door to the latest article</h2>
+                <button id="openbutton02" class="button"  onclick="door('myImages','#openbutton02','#closebutton02','#Article02');">Open the door</button>
+                <button id="closebutton02" class="button"  onclick="closedoor('myImages','#openbutton02','#closebutton02','#Article02');" style="visibility:hidden;">close the door</button>
+            </nav>
+
+            <img style="text-aling:right;" id="myImages" src="page2/door1.jpg" width="350" height="180"><br><br>
+            <button style="visibility:hidden;"  id="Article02" class="button"><a class="title" href="page2/index.html">View our latest Article</a ></button>
 
             <nav>
-               <h2 class="text"> Open the door below to view our first article</h2>
-                <button id="openbutton" class="button"  onclick="door();">Open the door</button>
-                <button id="closebutton" class="button"  onclick="closedoor();" style="visibility:hidden;">close the door</button>
+               <h2 class="text sarfaraj" style="text-align:center;"> Open the door below to our first article</h2>
+                <button id="openbutton" class="button"  onclick="door('myImage','#openbutton','#closebutton','#Article1');">Open the door</button>
+                <button id="closebutton" class="button"  onclick="closedoor('myImage','#openbutton','#closebutton','#Article1');" style="visibility:hidden;">close the door</button>
             </nav>
 
             <img style="text-aling:right;" id="myImage" src="page2/door1.jpg" width="350" height="180"><br><br>
@@ -69,7 +73,7 @@
 
 				<div id="developer"><br><br><br>
 					<p1>Developer:<br></p1>
-					<p1 class="title">Sarfaraj Ansari</p1>
+					<p1  class="sarfaraj" >Sarfaraj Ansari</p1>
 					<a href="https://www.facebook.com/claylabeducation"><p3 class="link" >/Instagram</p3></a>,<br>
 					<p2 class="text">11th grade student,<br>Claylab</p2>
 					<a href="https://www.facebook.com/claylabeducation"><p3 class="link" >/Facebook</p3></a><p3></p3>
@@ -79,7 +83,6 @@
 
 			</div>
 		</div>
-
 
     </body>
 </html>
