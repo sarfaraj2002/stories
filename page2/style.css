@@ -1,0 +1,125 @@
+.BrandonGrotesque-Regular { font-family: BrandonGrotesque-Regular; }
+.BrandonGrotesque-RegularItalic { font-family: BrandonGrotesque-RegularItalic; }
+.BrandonGrotesque-BlackItalic { font-family: BrandonGrotesque-BlackItalic; }
+.BrandonGrotesque-Black { font-family: BrandonGrotesque-Black; }
+.tk-futura-pt{font-family:"futura-pt-1","futura-pt-2",sans-serif;}
+
+#page {
+	display: block;
+	margin: 0 auto;
+	width:900px;
+	padding:0px 50px 50px;
+}
+#nav
+{
+	display:block;
+	text-align:left;
+	width:100%;
+	height:35px;
+	position:fixed;
+	top:0;
+	left:0;
+	background-color:violet;
+}
+
+#site-title {
+	font-size: 2em;
+	font-weight: bold;
+	margin: .67em 0;
+	margin-top:80px;
+
+	text-align:center;
+	font-size:70px;
+	letter-spacing:4px;
+	text-transform:uppercase;
+	font-family: BrandonGrotesque-Black, "futura-pt-1","futura-pt-2", Verdana, sans-serif;
+	line-height:68px;
+	display:block;
+	margin-bottom:20px;
+
+	font-size:72px; letter-spacing:4px;
+
+}
+
+.title-the{
+	text-transform:lowercase;
+	font-family: BrandonGrotesque-BlackItalic, "futura-pt-1","futura-pt-2", Verdana, sans-serif;
+	font-size:36px;
+	position:relative;
+	border-bottom:8px solid #fff;
+	line-height:10px;
+	font-style:italic;
+	top:-20px;
+	padding-bottom:5px;
+	letter-spacing:4px;
+}
+
+#titlelink
+{
+	color:black;
+	text-decoration: none;
+}
+
+
+body{
+	font-size:100%;
+	font-family: BrandonGrotesque-Regular, "futura-pt-1","futura-pt-2", Verdana, serif;
+	line-height:25px;
+	background-color:#C9CEC9;
+	margin:0px;
+	padding:0px;
+	font-size:14px;line-height:22px;
+}
+
+
+
+
+#footer{
+	width:100%;
+	background-color:#000;
+	height:200px;
+	color:#C9CEC9;
+	font-family: BrandonGrotesque-Regular, "futura-pt-1","futura-pt-2", Verdana, serif;
+	position:relative;
+	display:block;
+	font-size:12px;
+	letter-spacing:1px;
+	line-height:20px;
+	border:5px solid white;
+}
+
+#footer-container{
+	display:block;
+	width:700px;
+	margin:10px auto;
+	padding:40px 0px;
+	position:relative;
+}
+
+#author{
+	width:420px;
+	padding-right:40px;
+	float:left;
+	text-align:justify;
+	position:absolute;
+}
+
+#developer{
+	width:420px;
+	padding-left:40px;
+	float:right;
+	text-align:right;
+}
+.title
+{
+    color:rgb(255,255,255);
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration:underline;
+    text-decoration-color:violet;
+    text-align:right;
+}
+.navicon
+{
+	padding:5px;
+	padding-bottom:10px;
+}

@@ -9,6 +9,7 @@
     font-family: 'Courier New', Courier, monospace;
     text-decoration:underline;
     text-decoration-color:violet;
+    font-size:larger;
 }
 .text
 {
@@ -74,7 +75,6 @@ td
 
 .link
 {
-    color:white;
     font-size:larger;
     color: turquoise;
 
