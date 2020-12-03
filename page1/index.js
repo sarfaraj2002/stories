@@ -56,7 +56,7 @@ function playmusic()
     else
     {
         marvel.play();
-        a=window.setInterval(stopmusic,20500)
+        a=window.setInterval(stopmusic,205000)
     }
 
     music.src='music.gif';
