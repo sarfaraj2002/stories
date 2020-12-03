@@ -61,7 +61,7 @@ function playmusic()
 
     music.src='music.gif';
     animates();
-    
+
 
 
 }
