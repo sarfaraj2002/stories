@@ -45,8 +45,21 @@
 .sarfaraj
 {
     color:rgb(255,255,255);
-    font-family: 'Courier New', Courier, monospace;
-    text-decoration:underline;
-    text-decoration-color:violet;
-    text-align:right;
+    font-size:larger;
+    font-size:150%;
+    margin:10px;
+    color: black;
+}
+
+#text-container
+{
+    margin:60px;
+    display:block;
+    padding:20px;
+}
+.link
+{
+    font-size:larger;
+    color: turquoise;
+
 }
