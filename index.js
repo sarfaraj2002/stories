@@ -38,14 +38,14 @@ window.setInterval(blinkme,500);
 
 
 function door(door,openbutton,closebutton,article){
-    document.getElementById(door).src='page2/door3.jpg';
+    document.getElementById(door).src='article2/door3.jpg';
     blink(openbutton);
     blink(closebutton);
     blink(article);
 }
 function closedoor(door,openbutton,closebutton,article)
 {
-    document.getElementById(door).src='page2/door1.jpg';
+    document.getElementById(door).src='article2/door1.jpg';
     blink(openbutton);
     blink(closebutton);
     blink(article);
