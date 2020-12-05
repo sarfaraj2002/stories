@@ -43,7 +43,7 @@
 
 }
 
-body{
+.body{
 	font-size:100%;
 	font-family: BrandonGrotesque-Regular, "futura-pt-1","futura-pt-2", Verdana, serif;
 	line-height:25px;
@@ -111,7 +111,7 @@ body{
     color:rgb(173,216,230)
 }
 
-h2{
+.h2{
     text-align:center;
 }
 
