@@ -57,9 +57,29 @@
     display:block;
     padding:20px;
 }
+
+.developer-container
+{
+    display:block;
+    background-color:black;
+
+    width:80%;
+    margin-top:200px;
+    margin-left:10%;
+    padding:10px;
+    border:1px solid blue;
+
+}
+.developer-text
+{
+    font-size:25px;
+    color:rgb(210,210,255);
+}
 .link
 {
     font-size:larger;
     color: turquoise;
+    padding:30px;
+    margin:10px;
 
 }
