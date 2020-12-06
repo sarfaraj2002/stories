@@ -194,3 +194,43 @@ h2{
     margin:10px;
 
 }
+
+#comment-container
+{
+    width:80%;
+    margin:auto;
+    padding:15px 10px;
+    border:2px solid black;
+}
+
+
+input[type="text"]
+{
+    height:20px;
+    width:100%;
+    border:none;
+    border-bottom:2px solid #aaa;
+    background-color:transparent;
+    margin-bottom:10px;
+}
+
+.post-cancel
+{
+    border:none;
+    outline:none;
+    padding:10px 15px;
+    text-transform:uppercase;
+    font-weight:bold;
+    cursor:pointer;
+    border-radius:5px;
+}
+.post
+{
+    color:white;
+    background-color:blue;
+}
+.cancel
+{
+    color:black;
+    background-color:transparent;
+}
