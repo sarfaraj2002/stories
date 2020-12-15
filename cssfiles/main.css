@@ -5,6 +5,8 @@
 .tk-futura-pt{font-family:"futura-pt-1","futura-pt-2",sans-serif;}
 
 
+
+
 .page {
 	display: block;
 	margin: 0 auto;
@@ -233,4 +235,9 @@ h2{
 {
     color:black;
     background-color:transparent;
+}
+
+.lavendra
+{
+    background-color: rgb(210,210,255);
 }
